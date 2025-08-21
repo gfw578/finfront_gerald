@@ -90,7 +90,11 @@ def slow_endpoint():
         result = {"error": str(e)}
 
     return result
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> 35295dcab0b900dbeded00d7c9513a784cbbef03
 @app.route('/logout')
 def logout():
     session.clear()
